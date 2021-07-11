@@ -1,0 +1,16 @@
+{
+  "name": "other",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "lz-string": "^1.4.4",
+    "lzutf8": "~0.5.5",
+    "bson": "~4.0.4",
+    "lzma": "~2.3.2"
+  },
+  "devDependencies": {
+    "@types/lz-string": "~1.3.34",
+    "@types/bson": "~4.0.2"
+  }
+}

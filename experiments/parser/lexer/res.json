@@ -1,0 +1,703 @@
+{
+  "name": "expression",
+  "children": {
+    "orExpression": [
+      {
+        "name": "orExpression",
+        "children": {
+          "lhs": [
+            {
+              "name": "andExpression",
+              "children": {
+                "inclusionExpression": [
+                  {
+                    "name": "inclusionExpression",
+                    "children": {
+                      "Field": [
+                        {
+                          "image": "a-field",
+                          "startOffset": 0,
+                          "endOffset": 6,
+                          "startLine": 1,
+                          "endLine": 1,
+                          "startColumn": 1,
+                          "endColumn": 7,
+                          "tokenTypeIdx": 7700,
+                          "tokenType": {
+                            "name": "Field",
+                            "PATTERN": {},
+                            "tokenTypeIdx": 7700,
+                            "CATEGORIES": [],
+                            "categoryMatches": [],
+                            "categoryMatchesMap": {},
+                            "isParent": false
+                          }
+                        }
+                      ],
+                      "InclusionOperator": [
+                        {
+                          "image": "in",
+                          "startOffset": 8,
+                          "endOffset": 9,
+                          "startLine": 1,
+                          "endLine": 1,
+                          "startColumn": 9,
+                          "endColumn": 10,
+                          "tokenTypeIdx": 7704,
+                          "tokenType": {
+                            "name": "In",
+                            "PATTERN": {},
+                            "CATEGORIES": [
+                              {
+                                "name": "InclusionOperator",
+                                "PATTERN": {},
+                                "tokenTypeIdx": 7703,
+                                "CATEGORIES": [],
+                                "categoryMatches": [
+                                  7704,
+                                  7705
+                                ],
+                                "categoryMatchesMap": {
+                                  "7704": true,
+                                  "7705": true
+                                },
+                                "isParent": true
+                              }
+                            ],
+                            "tokenTypeIdx": 7704,
+                            "categoryMatches": [],
+                            "categoryMatchesMap": {},
+                            "isParent": false
+                          }
+                        }
+                      ],
+                      "LParen": [
+                        {
+                          "image": "(",
+                          "startOffset": 11,
+                          "endOffset": 11,
+                          "startLine": 1,
+                          "endLine": 1,
+                          "startColumn": 12,
+                          "endColumn": 12,
+                          "tokenTypeIdx": 7701,
+                          "tokenType": {
+                            "name": "LParen",
+                            "PATTERN": {},
+                            "tokenTypeIdx": 7701,
+                            "CATEGORIES": [],
+                            "categoryMatches": [],
+                            "categoryMatchesMap": {},
+                            "isParent": false
+                          }
+                        }
+                      ],
+                      "Literal": [
+                        {
+                          "image": "111",
+                          "startOffset": 13,
+                          "endOffset": 15,
+                          "startLine": 1,
+                          "endLine": 1,
+                          "startColumn": 14,
+                          "endColumn": 16,
+                          "tokenTypeIdx": 7714,
+                          "tokenType": {
+                            "name": "NumberLiteral",
+                            "PATTERN": {},
+                            "CATEGORIES": [
+                              {
+                                "name": "Literal",
+                                "PATTERN": {},
+                                "tokenTypeIdx": 7711,
+                                "CATEGORIES": [],
+                                "categoryMatches": [
+                                  7712,
+                                  7713,
+                                  7714
+                                ],
+                                "categoryMatchesMap": {
+                                  "7712": true,
+                                  "7713": true,
+                                  "7714": true
+                                },
+                                "isParent": true
+                              }
+                            ],
+                            "tokenTypeIdx": 7714,
+                            "categoryMatches": [],
+                            "categoryMatchesMap": {},
+                            "isParent": false
+                          }
+                        },
+                        {
+                          "image": "'2\"22\\'22'",
+                          "startOffset": 19,
+                          "endOffset": 28,
+                          "startLine": 1,
+                          "endLine": 1,
+                          "startColumn": 20,
+                          "endColumn": 29,
+                          "tokenTypeIdx": 7712,
+                          "tokenType": {
+                            "name": "StringLiteral",
+                            "PATTERN": {},
+                            "CATEGORIES": [
+                              {
+                                "name": "Literal",
+                                "PATTERN": {},
+                                "tokenTypeIdx": 7711,
+                                "CATEGORIES": [],
+                                "categoryMatches": [
+                                  7712,
+                                  7713,
+                                  7714
+                                ],
+                                "categoryMatchesMap": {
+                                  "7712": true,
+                                  "7713": true,
+                                  "7714": true
+                                },
+                                "isParent": true
+                              }
+                            ],
+                            "tokenTypeIdx": 7712,
+                            "categoryMatches": [],
+                            "categoryMatchesMap": {},
+                            "isParent": false
+                          }
+                        }
+                      ],
+                      "Comma": [
+                        {
+                          "image": ",",
+                          "startOffset": 17,
+                          "endOffset": 17,
+                          "startLine": 1,
+                          "endLine": 1,
+                          "startColumn": 18,
+                          "endColumn": 18,
+                          "tokenTypeIdx": 7699,
+                          "tokenType": {
+                            "name": "Comma",
+                            "PATTERN": {},
+                            "tokenTypeIdx": 7699,
+                            "CATEGORIES": [],
+                            "categoryMatches": [],
+                            "categoryMatchesMap": {},
+                            "isParent": false,
+                            "LABEL": "','"
+                          }
+                        }
+                      ],
+                      "RParen": [
+                        {
+                          "image": ")",
+                          "startOffset": 30,
+                          "endOffset": 30,
+                          "startLine": 1,
+                          "endLine": 1,
+                          "startColumn": 31,
+                          "endColumn": 31,
+                          "tokenTypeIdx": 7702,
+                          "tokenType": {
+                            "name": "RParen",
+                            "PATTERN": {},
+                            "tokenTypeIdx": 7702,
+                            "CATEGORIES": [],
+                            "categoryMatches": [],
+                            "categoryMatchesMap": {},
+                            "isParent": false
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "And": [
+                  {
+                    "image": "and",
+                    "startOffset": 32,
+                    "endOffset": 34,
+                    "startLine": 1,
+                    "endLine": 1,
+                    "startColumn": 33,
+                    "endColumn": 35,
+                    "tokenTypeIdx": 7709,
+                    "tokenType": {
+                      "name": "And",
+                      "PATTERN": {},
+                      "tokenTypeIdx": 7709,
+                      "CATEGORIES": [],
+                      "categoryMatches": [],
+                      "categoryMatchesMap": {},
+                      "isParent": false
+                    }
+                  },
+                  {
+                    "image": "and",
+                    "startOffset": 51,
+                    "endOffset": 53,
+                    "startLine": 1,
+                    "endLine": 1,
+                    "startColumn": 52,
+                    "endColumn": 54,
+                    "tokenTypeIdx": 7709,
+                    "tokenType": {
+                      "name": "And",
+                      "PATTERN": {},
+                      "tokenTypeIdx": 7709,
+                      "CATEGORIES": [],
+                      "categoryMatches": [],
+                      "categoryMatchesMap": {},
+                      "isParent": false
+                    }
+                  }
+                ],
+                "comparisonExpression": [
+                  {
+                    "name": "comparisonExpression",
+                    "children": {
+                      "Field": [
+                        {
+                          "image": "key",
+                          "startOffset": 36,
+                          "endOffset": 38,
+                          "startLine": 1,
+                          "endLine": 1,
+                          "startColumn": 37,
+                          "endColumn": 39,
+                          "tokenTypeIdx": 7700,
+                          "tokenType": {
+                            "name": "Field",
+                            "PATTERN": {},
+                            "tokenTypeIdx": 7700,
+                            "CATEGORIES": [],
+                            "categoryMatches": [],
+                            "categoryMatchesMap": {},
+                            "isParent": false
+                          }
+                        }
+                      ],
+                      "ComparisonOperator": [
+                        {
+                          "image": "eq",
+                          "startOffset": 40,
+                          "endOffset": 41,
+                          "startLine": 1,
+                          "endLine": 1,
+                          "startColumn": 41,
+                          "endColumn": 42,
+                          "tokenTypeIdx": 7707,
+                          "tokenType": {
+                            "name": "Eq",
+                            "PATTERN": {},
+                            "CATEGORIES": [
+                              {
+                                "name": "ComparisonOperator",
+                                "PATTERN": {},
+                                "tokenTypeIdx": 7706,
+                                "CATEGORIES": [],
+                                "categoryMatches": [
+                                  7707,
+                                  7708
+                                ],
+                                "categoryMatchesMap": {
+                                  "7707": true,
+                                  "7708": true
+                                },
+                                "isParent": true
+                              }
+                            ],
+                            "tokenTypeIdx": 7707,
+                            "categoryMatches": [],
+                            "categoryMatchesMap": {},
+                            "isParent": false
+                          }
+                        }
+                      ],
+                      "Literal": [
+                        {
+                          "image": "'value'",
+                          "startOffset": 43,
+                          "endOffset": 49,
+                          "startLine": 1,
+                          "endLine": 1,
+                          "startColumn": 44,
+                          "endColumn": 50,
+                          "tokenTypeIdx": 7712,
+                          "tokenType": {
+                            "name": "StringLiteral",
+                            "PATTERN": {},
+                            "CATEGORIES": [
+                              {
+                                "name": "Literal",
+                                "PATTERN": {},
+                                "tokenTypeIdx": 7711,
+                                "CATEGORIES": [],
+                                "categoryMatches": [
+                                  7712,
+                                  7713,
+                                  7714
+                                ],
+                                "categoryMatchesMap": {
+                                  "7712": true,
+                                  "7713": true,
+                                  "7714": true
+                                },
+                                "isParent": true
+                              }
+                            ],
+                            "tokenTypeIdx": 7712,
+                            "categoryMatches": [],
+                            "categoryMatchesMap": {},
+                            "isParent": false
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "name": "comparisonExpression",
+                    "children": {
+                      "Field": [
+                        {
+                          "image": "name",
+                          "startOffset": 55,
+                          "endOffset": 58,
+                          "startLine": 1,
+                          "endLine": 1,
+                          "startColumn": 56,
+                          "endColumn": 59,
+                          "tokenTypeIdx": 7700,
+                          "tokenType": {
+                            "name": "Field",
+                            "PATTERN": {},
+                            "tokenTypeIdx": 7700,
+                            "CATEGORIES": [],
+                            "categoryMatches": [],
+                            "categoryMatchesMap": {},
+                            "isParent": false
+                          }
+                        }
+                      ],
+                      "ComparisonOperator": [
+                        {
+                          "image": "ne",
+                          "startOffset": 60,
+                          "endOffset": 61,
+                          "startLine": 1,
+                          "endLine": 1,
+                          "startColumn": 61,
+                          "endColumn": 62,
+                          "tokenTypeIdx": 7708,
+                          "tokenType": {
+                            "name": "NotEq",
+                            "PATTERN": {},
+                            "CATEGORIES": [
+                              {
+                                "name": "ComparisonOperator",
+                                "PATTERN": {},
+                                "tokenTypeIdx": 7706,
+                                "CATEGORIES": [],
+                                "categoryMatches": [
+                                  7707,
+                                  7708
+                                ],
+                                "categoryMatchesMap": {
+                                  "7707": true,
+                                  "7708": true
+                                },
+                                "isParent": true
+                              }
+                            ],
+                            "tokenTypeIdx": 7708,
+                            "categoryMatches": [],
+                            "categoryMatchesMap": {},
+                            "isParent": false
+                          }
+                        }
+                      ],
+                      "Literal": [
+                        {
+                          "image": "'test'",
+                          "startOffset": 63,
+                          "endOffset": 68,
+                          "startLine": 1,
+                          "endLine": 1,
+                          "startColumn": 64,
+                          "endColumn": 69,
+                          "tokenTypeIdx": 7712,
+                          "tokenType": {
+                            "name": "StringLiteral",
+                            "PATTERN": {},
+                            "CATEGORIES": [
+                              {
+                                "name": "Literal",
+                                "PATTERN": {},
+                                "tokenTypeIdx": 7711,
+                                "CATEGORIES": [],
+                                "categoryMatches": [
+                                  7712,
+                                  7713,
+                                  7714
+                                ],
+                                "categoryMatchesMap": {
+                                  "7712": true,
+                                  "7713": true,
+                                  "7714": true
+                                },
+                                "isParent": true
+                              }
+                            ],
+                            "tokenTypeIdx": 7712,
+                            "categoryMatches": [],
+                            "categoryMatchesMap": {},
+                            "isParent": false
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "Or": [
+            {
+              "image": "or",
+              "startOffset": 70,
+              "endOffset": 71,
+              "startLine": 1,
+              "endLine": 1,
+              "startColumn": 71,
+              "endColumn": 72,
+              "tokenTypeIdx": 7710,
+              "tokenType": {
+                "name": "Or",
+                "PATTERN": {},
+                "tokenTypeIdx": 7710,
+                "CATEGORIES": [],
+                "categoryMatches": [],
+                "categoryMatchesMap": {},
+                "isParent": false
+              }
+            }
+          ],
+          "rhs": [
+            {
+              "name": "andExpression",
+              "children": {
+                "inclusionExpression": [
+                  {
+                    "name": "inclusionExpression",
+                    "children": {
+                      "Field": [
+                        {
+                          "image": "val",
+                          "startOffset": 73,
+                          "endOffset": 75,
+                          "startLine": 1,
+                          "endLine": 1,
+                          "startColumn": 74,
+                          "endColumn": 76,
+                          "tokenTypeIdx": 7700,
+                          "tokenType": {
+                            "name": "Field",
+                            "PATTERN": {},
+                            "tokenTypeIdx": 7700,
+                            "CATEGORIES": [],
+                            "categoryMatches": [],
+                            "categoryMatchesMap": {},
+                            "isParent": false
+                          }
+                        }
+                      ],
+                      "InclusionOperator": [
+                        {
+                          "image": "in",
+                          "startOffset": 77,
+                          "endOffset": 78,
+                          "startLine": 1,
+                          "endLine": 1,
+                          "startColumn": 78,
+                          "endColumn": 79,
+                          "tokenTypeIdx": 7704,
+                          "tokenType": {
+                            "name": "In",
+                            "PATTERN": {},
+                            "CATEGORIES": [
+                              {
+                                "name": "InclusionOperator",
+                                "PATTERN": {},
+                                "tokenTypeIdx": 7703,
+                                "CATEGORIES": [],
+                                "categoryMatches": [
+                                  7704,
+                                  7705
+                                ],
+                                "categoryMatchesMap": {
+                                  "7704": true,
+                                  "7705": true
+                                },
+                                "isParent": true
+                              }
+                            ],
+                            "tokenTypeIdx": 7704,
+                            "categoryMatches": [],
+                            "categoryMatchesMap": {},
+                            "isParent": false
+                          }
+                        }
+                      ],
+                      "LParen": [
+                        {
+                          "image": "(",
+                          "startOffset": 80,
+                          "endOffset": 80,
+                          "startLine": 1,
+                          "endLine": 1,
+                          "startColumn": 81,
+                          "endColumn": 81,
+                          "tokenTypeIdx": 7701,
+                          "tokenType": {
+                            "name": "LParen",
+                            "PATTERN": {},
+                            "tokenTypeIdx": 7701,
+                            "CATEGORIES": [],
+                            "categoryMatches": [],
+                            "categoryMatchesMap": {},
+                            "isParent": false
+                          }
+                        }
+                      ],
+                      "Literal": [
+                        {
+                          "image": "11",
+                          "startOffset": 81,
+                          "endOffset": 82,
+                          "startLine": 1,
+                          "endLine": 1,
+                          "startColumn": 82,
+                          "endColumn": 83,
+                          "tokenTypeIdx": 7714,
+                          "tokenType": {
+                            "name": "NumberLiteral",
+                            "PATTERN": {},
+                            "CATEGORIES": [
+                              {
+                                "name": "Literal",
+                                "PATTERN": {},
+                                "tokenTypeIdx": 7711,
+                                "CATEGORIES": [],
+                                "categoryMatches": [
+                                  7712,
+                                  7713,
+                                  7714
+                                ],
+                                "categoryMatchesMap": {
+                                  "7712": true,
+                                  "7713": true,
+                                  "7714": true
+                                },
+                                "isParent": true
+                              }
+                            ],
+                            "tokenTypeIdx": 7714,
+                            "categoryMatches": [],
+                            "categoryMatchesMap": {},
+                            "isParent": false
+                          }
+                        },
+                        {
+                          "image": "22",
+                          "startOffset": 84,
+                          "endOffset": 85,
+                          "startLine": 1,
+                          "endLine": 1,
+                          "startColumn": 85,
+                          "endColumn": 86,
+                          "tokenTypeIdx": 7714,
+                          "tokenType": {
+                            "name": "NumberLiteral",
+                            "PATTERN": {},
+                            "CATEGORIES": [
+                              {
+                                "name": "Literal",
+                                "PATTERN": {},
+                                "tokenTypeIdx": 7711,
+                                "CATEGORIES": [],
+                                "categoryMatches": [
+                                  7712,
+                                  7713,
+                                  7714
+                                ],
+                                "categoryMatchesMap": {
+                                  "7712": true,
+                                  "7713": true,
+                                  "7714": true
+                                },
+                                "isParent": true
+                              }
+                            ],
+                            "tokenTypeIdx": 7714,
+                            "categoryMatches": [],
+                            "categoryMatchesMap": {},
+                            "isParent": false
+                          }
+                        }
+                      ],
+                      "Comma": [
+                        {
+                          "image": ",",
+                          "startOffset": 83,
+                          "endOffset": 83,
+                          "startLine": 1,
+                          "endLine": 1,
+                          "startColumn": 84,
+                          "endColumn": 84,
+                          "tokenTypeIdx": 7699,
+                          "tokenType": {
+                            "name": "Comma",
+                            "PATTERN": {},
+                            "tokenTypeIdx": 7699,
+                            "CATEGORIES": [],
+                            "categoryMatches": [],
+                            "categoryMatchesMap": {},
+                            "isParent": false,
+                            "LABEL": "','"
+                          }
+                        }
+                      ],
+                      "RParen": [
+                        {
+                          "image": ")",
+                          "startOffset": 86,
+                          "endOffset": 86,
+                          "startLine": 1,
+                          "endLine": 1,
+                          "startColumn": 87,
+                          "endColumn": 87,
+                          "tokenTypeIdx": 7702,
+                          "tokenType": {
+                            "name": "RParen",
+                            "PATTERN": {},
+                            "tokenTypeIdx": 7702,
+                            "CATEGORIES": [],
+                            "categoryMatches": [],
+                            "categoryMatchesMap": {},
+                            "isParent": false
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

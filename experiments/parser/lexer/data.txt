@@ -1,0 +1,8 @@
+(order_source eq '5ac23836ef8e40398e44e194')
+(order_source eq '5f2caf17c434dccb8a9fe9a2') and (order_status ne 'closed')
+(order_status ne 'closed') and (order_source eq '5ac23836ef8e40398e44e194')
+(origin eq 'mobile') and (payment_status eq 'paid')
+(origin eq 'mobile') and (order_status ne 'closed')
+(origin ne 'mobile') and (destination eq '58f0ce896e034d0001224824') and ((order_status eq 'saved') or (order_status eq 'suspended'))
+
+origin eq 'mobile' and order_status ne 'closed'
